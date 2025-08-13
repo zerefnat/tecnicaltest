@@ -10,15 +10,17 @@ import {CommentsSection} from "@/components/CommentsSection";
 
 export default function Home() {
   return (
-      <div className="">
-        <Header/>
-        <HeroSection/>
-        <AboutSection/>
-        <ServicesSection/>
-        <TeamSection/>
-        <NewsSection/>
-        <CommentsSection/>
-        <Footer/>
-      </div>
+       <>
+          <Header/>
+          <main>
+              <HeroSection/>
+              <AboutSection/>
+              <ServicesSection/>
+              <TeamSection/>
+              <NewsSection/>
+              <CommentsSection/>
+          </main>
+          <Footer/>
+      </>
   );
 }

@@ -29,8 +29,6 @@ export const HeroSection = () => {
                         Iniciar sesión
                     </a>
                 </div>
-
-
                 <div className="hidden md:flex flex-1 justify-end relative z-20">
                     <div className="relative w-[300px] h-[240px] lg:w-[500px] lg:h-[400px] flex items-center justify-center">
                         <div className="w-full h-full  rounded-lg flex items-center justify-center text-gray-400 text-sm lg:text-base">

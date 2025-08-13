@@ -65,8 +65,6 @@ export const NewsSection = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-serif">Artículos</h2>
           </div>
-
-
           <div className="relative flex items-center justify-center">
             <button
               onClick={prevSlide}
@@ -83,7 +81,6 @@ export const NewsSection = () => {
                 />
               </svg>
             </button>
-
             <div className="flex justify-center items-stretch gap-4 max-w-6xl mx-auto px-16">
               {visibleArticles.map((article) => (
                 <div key={article.id} className="flex-1 min-w-0">

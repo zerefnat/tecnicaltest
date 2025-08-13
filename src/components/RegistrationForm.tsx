@@ -19,7 +19,6 @@ export default function RegistrationForm() {
             setErrors((prev) => ({ ...prev, [field]: "" }))
         }
     }
-
     const validateForm = () => {
         const newErrors: Record<string, string> = {}
 
@@ -50,7 +49,6 @@ export default function RegistrationForm() {
         setErrors(newErrors)
         return Object.keys(newErrors).length === 0
     }
-
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
         if (validateForm()) {
@@ -58,7 +56,6 @@ export default function RegistrationForm() {
             alert("¡Cuenta creada exitosamente!")
         }
     }
-
     return (
         <section className="min-h-screen bg-gray-50">
             <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">

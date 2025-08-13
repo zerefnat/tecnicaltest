@@ -5,12 +5,10 @@ export const InfoSection: React.FC = () => {
         <div className="bg-[#094B72] text-white p-8 lg:p-12 flex flex-col justify-center">
             <div className="max-w-md">
                 <h2 className="text-3xl font-bold mb-6">Únete a Nuestra Firma Legal</h2>
-
                 <p className="text-blue-100 mb-8 leading-relaxed">
                     Accede a servicios legales de excelencia con más de 15 años de experiencia brindando asesoría jurídica
                     integral a empresas y particulares.
                 </p>
-
                 <div className="space-y-6">
                     <div className="flex items-start space-x-4">
                         <div className="bg-blue-600 p-2 rounded-lg flex-shrink-0">
@@ -49,7 +47,6 @@ export const InfoSection: React.FC = () => {
                             <p className="text-blue-100 text-sm">Consultas urgentes atendidas en cualquier momento del día.</p>
                         </div>
                     </div>
-
                     <div className="flex items-start space-x-4">
                         <div className="bg-blue-600 p-2 rounded-lg flex-shrink-0">
                             <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
