@@ -22,7 +22,7 @@ export const AboutSectionCards:React.FC<{ url: string; title: string; test: stri
             </p>
 
             <a
-                href="#servicios"
+                href="#"
                 className="inline-flex items-center text-blue-600 text-sm font-medium hover:text-blue-700 transition-colors"
             >
                 Leer más
