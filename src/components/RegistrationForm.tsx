@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { InfoSection } from "./InfoSection"
 import { InputForm } from "./InputForm"
 
@@ -64,7 +65,7 @@ export default function RegistrationForm() {
                 <div className="flex items-center justify-center p-8 lg:p-12">
                     <div className="w-full max-w-md">
                         <div className="mb-6">
-                            <a
+                            <Link
                                 href="/"
                                 className="inline-flex items-center text-[#094B72] hover:text-[#0a5282] transition-colors duration-200"
                             >
@@ -72,7 +73,7 @@ export default function RegistrationForm() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                                 </svg>
                                 Regresar
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="text-center mb-8">

@@ -10,7 +10,7 @@ export const CommentsSectionCards: React.FC<{
         <div className="w-full max-w-md mx-auto bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200">
             <div className="mb-4">
                 <p className="text-gray-700 text-sm leading-relaxed italic">
-                    "{comment}"
+                    &ldquo;{comment}&rdquo;
                 </p>
             </div>
 
