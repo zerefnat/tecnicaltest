@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/image";
-export const AboutSectionCards:React.FC<{ url: string; title: string; test: string }>  = ({url,title,test}) => {
+import Image, {StaticImageData} from "next/image";
+export const AboutSectionCards:React.FC<{ url: string | StaticImageData; title: string; test: string }>  = ({url,title,test}) => {
     return (
         <div className="w-full max-w-sm mx-auto bg-white rounded-lg shadow-sm border border-gray-100 p-6 sm:p-8 m-2 sm:m-4 text-center">
             <div className="mb-4 sm:mb-6">

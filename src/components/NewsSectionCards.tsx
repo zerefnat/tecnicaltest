@@ -1,8 +1,8 @@
 import React from "react"
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 
 export const NewsSectionCards: React.FC<{
-    url: string;
+    url: string | StaticImageData;
     title: string;
     text: string;
     date: string

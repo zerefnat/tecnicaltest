@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 
 export const CommentsSectionCards: React.FC<{
-    comment: string;
-    userPhoto: string;
+    comment: string ;
+    userPhoto: string | StaticImageData;
     userName: string;
 }> = ({ comment, userPhoto, userName }) => {
     return (

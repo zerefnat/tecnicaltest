@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 
-export const TeamSectionCards: React.FC<{url: string; name: string; position: string}> = ({url, name, position}) => {
+export const TeamSectionCards: React.FC<{url: string | StaticImageData; name: string; position: string}> = ({url, name, position}) => {
     return(
         <div className="w-full max-w-sm mx-auto bg-transparent rounded-lg shadow-sm border border-gray-100 p-6 sm:p-8 m-2 sm:m-4 text-center hover:opacity-90 h-full flex flex-col">
             <div className="mb-4 sm:mb-6 flex-shrink-0">
