@@ -4,7 +4,7 @@ import Abogados from '../assets/AbogadosHeroPages.png'
 
 export const HeroSection = () => {
     return (
-        <section className="min-h-screen relative overflow-hidden " style={{ backgroundColor: "#F5F1E8" } }>
+        <section id="quienes-somos" className="min-h-screen relative overflow-hidden " style={{ backgroundColor: "#F5F1E8" } }>
             <div
                 className="absolute right-0 top-0 w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] rounded-full opacity-90"
                 style={{ backgroundColor: "#A8C8E1" }}
